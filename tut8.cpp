@@ -19,6 +19,12 @@ int main(){
     cout<<"The value of d without setw is : "<<d<<endl<<endl;
     
     //operator precedence in C++
+    int x = 3, y = 4;
+    int c = ((((a*5)+b)-45)+78);
+    // this will be solved according to operator precedence which has been given on the website
+    //https://en.cppreference.com/w/cpp/language/operator_precedence
+    // short trick MDRAS for multiply >> divide >> remainder >> addition >> subtraction
+    cout<<c<<endl;
 
      return 0;
 }
