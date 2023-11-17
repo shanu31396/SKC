@@ -7,6 +7,11 @@ There are three types of control structure--
     iii) Loop structure     // repeats command till condition is true then terminate
                             //all these 3 structures are basic control structure
     */
+
+   // LOOPS CAN'T BE CREATED USING IF-ELSE AND SWITCH CASE STATEMENT
+   // WE CAN ONLY EXECUTE SELECTION CONTROL STRUTURE USING IF-ELSE AND SWITCH CASE STATEMENT
+   // LOOPS CAN BE CREATED USING FOR, WHILE AND DO-WHILE LOOPS
+   
 #include<iostream>
 using namespace std;
 int main(){
