@@ -29,7 +29,7 @@ int main(){
 
 
         --->>then, it will goes in "updation" part and just after updation executes,
-         the initial value which was 0 here will got updated and everything will be repeated */
+         the initial value which was 0 here will got updated and everything will be repeated till condition is true*/
 
 
          for (int i = 0; i < 4; i++)
