@@ -8,7 +8,7 @@ int main(){
         3. Do-while loop
         */
     
-     // FOR LOOP IN C++
+     // 1.FOR LOOP IN C++
 
      //  Syntax for for loop
 
@@ -33,13 +33,55 @@ int main(){
 
 
 
-         for (int i = 0; i < 4; i++)
-    {                   // THIS
-        cout<<i<<endl;  //     IS
-                        //       LOOP BODY
-    }
+    //      for (int i = 0; i < 4; i++)
+    // {                   // THIS
+    //     cout<<i<<endl;  //     IS
+    //                     //       LOOP BODY
+    // }
+    
+       // we can also create infinite loop by inserting a condition which never get fasle
+    
+    // 2. WHILE LOOP IN C++
+
+    
+// here, at first, we set the value of our declared variable
+// program will simply go in next line and will check whether condition under "while" is true or false
+// if false, it will exit 
+// if true, it will execute the program
+// then goes to "updation" and repeats from "while" by checking condition 
+
+    // int i = 6;
+    // while (i<=5)
+    // {
+    //     cout<<i<<endl;
+    //     i++;
+    // }
+
+    // we can also create infinite while loop by inserting a condition which never get fasle
     
 
-    // we can also create infinite loop by inserting a condition which never get fasle
+    //3. DO-WHILE LOOP IN C++
+    // int i = 1;
+    // do{
+    //     cout<<i<<endl;
+    //     i++;
+    // }while(i<5);
+
+    /*
+        it's mechanism is just reciprocal to while loop because in while loop, condition is given first then comes the command to print that 
+         code 
+         but
+         here, first, what to do is explained then given the condition
+         
+         ONE THING TO KEEP IN MIND HERE IS THAT 
+         IN THIS DO-WHILE LOOP CASE,THE CODE WILL DEFINITELY RUN ONE TIME IRRESPECTIVE OF WHATEVER BE THE CONDITION IS then it will check
+         the condition and if it found false,code stops, but if found true, loop will execute normally */
+    
+    
+    
+    
+    
+    
+    
     return 0;
 }
