@@ -25,7 +25,7 @@ int main(){
 
         --->>then, it will go to next part of "for" loop which is "condition" and check for whether condition is true or false,
          if false, then code will stop executing, 
-         if true, then code will execute cout command
+         if true, then loop code will execute cout command
 
 
         --->>then, it will goes in "updation" part and just after updation executes,
