@@ -32,11 +32,14 @@ int main(){
          the initial value which was 0 here will got updated and everything will be repeated till condition is true*/
 
 
+
          for (int i = 0; i < 4; i++)
     {                   // THIS
         cout<<i<<endl;  //     IS
                         //       LOOP BODY
     }
     
+
+    // we can also create infinite loop by inserting a condition which never get fasle
     return 0;
 }
