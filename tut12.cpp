@@ -15,15 +15,28 @@ int main(){;
         
     // * --->(Value at)Dereference operator
             // if we put * b/f pointer variable, it tells the value stored in that pointer variable
-    cout<<"The value at address b is "<<*b<<" ."<<endl;
     
+    // all these lines print the value of variable a
+    cout<<"The value at address b is "<<*&a<<" ."<<endl;
+    cout<<"The value at address b is "<<a<<" ."<<endl;
+
+    cout<<"The value at address b is "<<*b<<" ."<<endl;
+
+    // Pointer to pointer
+    int** c = &b;
+    cout<<"The address of b is :"<<&b<<endl;
+    cout<<"The address of b is :"<<c<<endl;
+    cout<<"The value at address c is :"<<*c<<endl;
+    cout<<"The value at address value_at(value_at(c)) is :"<<**c<<endl;
+    //  *c =  b  ,c pe pointer(*) lagane se b pr pahucha
+    // **c = *b  ,b par pahuch k ek value diya, ab b pr pointer(*)
+    // se uskey andar stored address ka value mila jo ki a ka value tha
     return 0;
 }  
  
-// kisi variable se pehle "&" laga dein to us variable ka 
+// kisi VARIABLE SE PEHLE "&" laga dein to us variable ka 
 // addres mil jata h jise hum pointer k andar store kar sakte hain
  
 // pointer sirf address store karte hain
 
-// pointer ke pehle * lagaane se us address ki value mil jati h
-
+// POINTER SE PEHLE "*" lagaane se us address ki value mil jati h
