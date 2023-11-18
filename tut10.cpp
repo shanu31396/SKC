@@ -29,17 +29,18 @@ int main(){
 
 
         --->>then, it will goes in "updation" part and just after updation executes,
-         the initial value which was 0 here will got updated and everything will be repeated till condition is true*/
+         the initial value which was 0 here, will got updated and everything will be repeated till condition is true*/
 
 
 
-    //      for (int i = 0; i < 4; i++)
-    // {                   // THIS
-    //     cout<<i<<endl;  //     IS
+          for (int i = 0; i < 4; i++)
+     {                   // THIS
+         cout<<i<<endl;  //     IS
     //                     //       LOOP BODY
-    // }
+     }
     
-       // we can also create infinite loop by inserting a condition which never get fasle
+    cout<<endl;
+       // we can also create infinite loop by inserting a condition which never get fasle like 0<4;
     
     // 2. WHILE LOOP IN C++
 
@@ -50,22 +51,23 @@ int main(){
 // if true, it will execute the program
 // then goes to "updation" and repeats from "while" by checking condition 
 
-    // int i = 6;
-    // while (i<=5)
-    // {
-    //     cout<<i<<endl;
-    //     i++;
-    // }
+    int j = 6;
+    while (j<=10)
+    {
+        cout<<j<<endl;
+        j++;
+    }
 
+    cout<<endl;
     // we can also create infinite while loop by inserting a condition which never get fasle
     
 
     //3. DO-WHILE LOOP IN C++
-    // int i = 1;
-    // do{
-    //     cout<<i<<endl;
-    //     i++;
-    // }while(i<5);
+    int k = 1;
+    do{
+        cout<<k<<endl;
+        k++;
+    }while(k<5);
 
     /*
         it's mechanism is just reciprocal to while loop because in while loop, condition is given first then comes the command to print that 
@@ -77,11 +79,5 @@ int main(){
          IN THIS DO-WHILE LOOP CASE,THE CODE WILL DEFINITELY RUN ONE TIME IRRESPECTIVE OF WHATEVER BE THE CONDITION IS then it will check
          the condition and if it found false,code stops, but if found true, loop will execute normally */
     
-    
-    
-    
-    
-    
-    
-    return 0;
+     return 0;
 }

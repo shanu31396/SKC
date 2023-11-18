@@ -20,17 +20,14 @@ int main(){
 // --------------------FLOAT, DOUBLE AND LONG-DOUBLE LITERALS-------------------- //
     float d = 34.4;
     d = 34.4f;    
-    d = 34.4F; //all three lines represent same datatype as mentioned already before their
-    // variable's name
+    d = 34.4F; //all three lines represent same datatype as mentioned already before their variable's name
     long double e = 34.4;    
     e = 34.4l;
-    e = 34.4L; //all three lines represent same datatype as mentioned already before their
-    // variable's name 
+    e = 34.4L; //all three lines represent same datatype as mentioned already before their variable's name 
 
 
-    // By default, decimal numbers are always considered as double in C++ compiler and hence, in
-    //order to specify that whether given no. is float or double we add 'f' or 'F' and 'l' or 'L' as 
-    //it's suffix
+    // By default, decimal numbers are considered as double in C++ compiler and hence, in
+    //order to specify that whether the given no. is float or double, we add 'f' or 'F' and 'l' or 'L' as it's suffix
     cout<<"The value of d is "<<d<<" "<<"and the value of e is "<<e<<" .\n";
 
     cout<<"The size of 34.4 is "<<sizeof(34.4)<<endl;  
@@ -47,9 +44,9 @@ int main(){
     cout<<there<<endl;
 
 
-    string man = "SK";
-    string & boy = man;
-    string & wrestler = boy;
+    string boy = "SK";
+    string & man = boy;
+    string & wrestler = man;
     string & muscular = wrestler;
     cout<<muscular<<endl;
 

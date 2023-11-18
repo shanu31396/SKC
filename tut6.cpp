@@ -1,20 +1,20 @@
-//HEADER FILES AND OPERTORS IN C++
+//HEADER FILES AND OPERATORS IN C++
 
 //Header file is of two types-
 
 // i) System header files
-#include<iostream> // this is syntax
+#include<iostream> // this is syntax of system header file
 
-// ii) User defined header files
-#include"this.h"// this is syntax, for more info, go to this.h present in the directory
+// ii) User-defined header files
+#include"this.h"// this is syntax of User-defined header file, for more info, go to this.h present in the directory
 
 using namespace std;
 int main(){
     cout<<"Operators in C++\n";
     /*Now, we'll discuss operators in C++ 
     but b/f this, remember a shortcut to create multi-cursor which is created by pressing alt+shift 
-    and then drag mouse cursor to dezired area. 
-    So, there are following types of operators in C++ 
+    and then drag mouse cursor upto dezired line. 
+    Now, coming to the topic, there are following types of operators in C++ 
 
     ------------Arithmetic Operators------------
     + add
@@ -25,15 +25,15 @@ int main(){
     ++ increment operator
     -- decrement operator*/
     int a = 5, b = 4;
-    cout<<"The value of a+b is :"<<(a+b)<<endl;
-    cout<<"The value of a-b is :"<<(a-b)<<endl;
-    cout<<"The value of a*b is :"<<(a*b)<<endl;
-    cout<<"The value of a/b is :"<<(a/b)<<endl;
-    cout<<"The value of a%b is :"<<(a%b)<<endl;
-    cout<<"The value of a++ is :"<<(a++)<<endl;
-    cout<<"The value of a-- is :"<<(a--)<<endl;
-    cout<<"The value of ++a is :"<<(++a)<<endl;
-    cout<<"The value of --a is :"<<(--a)<<endl;
+    cout<<"The value of a+b is :"<<(a+b)<<endl; //9
+    cout<<"The value of a-b is :"<<(a-b)<<endl; //1
+    cout<<"The value of a*b is :"<<(a*b)<<endl; //20
+    cout<<"The value of a/b is :"<<(a/b)<<endl; //1
+    cout<<"The value of a%b is :"<<(a%b)<<endl; //1
+    cout<<"The value of a++ is :"<<(a++)<<endl; //5
+    cout<<"The value of a-- is :"<<(a--)<<endl; //6
+    cout<<"The value of ++a is :"<<(++a)<<endl; //6
+    cout<<"The value of --a is :"<<(--a)<<endl; //5
     cout<<endl;
 
     /*------------Assignment Operators------------

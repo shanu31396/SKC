@@ -4,8 +4,8 @@
 //RULE TO DECLARE VARIABLES IN C++
     /*
     variable name can range from 1 to 255 characters
-    all variable names must begin with a letter or underscore(_)
-    after first initial letter, variable name can contain letetr and numbers
+    all variable names must begin with a letter or an underscore(_)
+    after first initial letter, variable name can contain letter and numbers
     these are case sensitive
     no special characters is allowed
     C++ keyword can't be used as variable's name

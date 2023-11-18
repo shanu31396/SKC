@@ -3,7 +3,7 @@
 /*
 There are three types of control structure--
     i) Sequence structure   //one command executes just after termination of first one
-    ii) Selection structure // execute either true or false and take exit
+    ii) Selection structure // execute either one or another condition and takes exit
     iii) Loop structure     // repeats command till condition is true then terminate
                             //all these 3 structures are basic control structure
     */
@@ -20,10 +20,11 @@ int main(){
     cin>>age;
 
 
-    //  TO USE IF ELSE LADDER, COMMENT OUT SWITCH CASE AND TO USE SWITCH CASE, COMMENT OUT IF ELSE LADDER
+    //  TO USE IF ELSE LADDER IN THIS tut9.cpp, COMMENT OUT SWITCH CASE AND TO USE SWITCH CASE, COMMENT OUT IF ELSE LADDER
   
 
     //  SELECTION CONTROL STRUCTUTR --- IF ELSE-IF ELSE LADDER
+    // one thing to keep in mind while creating conditions in if-else is the sequence in which statements or conditions are placed
     if(age<1){
         cout<<"You are not yet born"<<endl;
     }
