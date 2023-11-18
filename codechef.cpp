@@ -1,3 +1,5 @@
+// TO CALCULATE NO. OF CLEAR DAYS IN A WEEK OUT OF RAINY AND CLOUDY DAYS
+
 #include<iostream>
 using namespace std;
 int main(){
