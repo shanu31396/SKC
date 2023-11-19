@@ -9,7 +9,7 @@ int main(){;
     int a=3;
     int* b = &a;
 
-    // & ---> (Address of)<<operator
+    // & ---> (Address of) operator
     cout<<"The address of a is "<<b<<" ."<<endl;
     cout<<"The address of a is "<<&a<<" ."<<endl;
         
@@ -39,4 +39,4 @@ int main(){;
  
 // pointer sirf address store karte hain
 
-// POINTER SE PEHLE "*" lagaane se us address ki value mil jati h
+// POINTER SE PEHLE "*" lagaane se uske andar stored address ki value mil jati h
