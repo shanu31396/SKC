@@ -76,13 +76,13 @@ int main(){
     // to declare variable as an array, we use "[]" this sign after writing variable's name or array name
 
     // so to get value stored in array we go through this way   
-
+    cout<<endl;
      int* p = marks; // here, writing &marks to store address of "marks" will considered wrong as marks is array type and array is address in itsel
-     cout<<"The value of marks[0] is "<<*p<<endl;
-     cout<<"The value of marks[1] is "<<*(p+1)<<endl;
-     cout<<"The value of marks[2] is "<<*(p+2)<<endl;
-     cout<<"The value of marks[3] is "<<*(p+3)<<endl;
-     cout<<"The value of marks[4] is "<<*(p+4)<<endl;
+     cout<<"The value of marks[0] is "<<setw(3)<<*p<<endl;
+     cout<<"The value of marks[1] is "<<setw(3)<<*(p+1)<<endl;
+     cout<<"The value of marks[2] is "<<setw(3)<<*(p+2)<<endl;
+     cout<<"The value of marks[3] is "<<setw(3)<<*(p+3)<<endl;
+     cout<<"The value of marks[4] is "<<setw(3)<<*(p+4)<<endl;
      
 // BASIC FORMULA OF POINTER ARITHMETIC
 //      address(new) = address(curent) + i*(size of datatype)
