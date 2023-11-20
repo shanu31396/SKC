@@ -83,6 +83,12 @@ int main(){
      cout<<"The value of marks[2] is "<<setw(3)<<*(p+2)<<endl;
      cout<<"The value of marks[3] is "<<setw(3)<<*(p+3)<<endl;
      cout<<"The value of marks[4] is "<<setw(3)<<*(p+4)<<endl;
+     cout<<endl;
+//int marks[5]={23,34,35,56,67};
+     cout<<*p<<endl;//23
+     cout<<*(p++)<<endl;//23
+     cout<<*p<<endl;//34
+     cout<<*(++p)<<endl;//35
      
 // BASIC FORMULA OF POINTER ARITHMETIC
 //      address(new) = address(curent) + i*(size of datatype)
