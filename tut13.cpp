@@ -74,8 +74,9 @@ int main(){
     // i.e. int a=5 mein a ke pehle "&" lagane se variable ka address milta hai
     //but, variable ka array declare hone k baad, int sk[], sirf variable(here, sk) likhne se hi address mil jata h
     // to declare variable as an array, we use "[]" this sign after writing variable's name or array name
+    //for eg. int [system]={5};     here, variable named "system" has been declared as an array, got a value of 5 stored in it
 
-    // so to get value stored in array we go through this way   
+    // so, to get value stored in variable, we go through pointer's steps
     cout<<endl;
      int* p = marks; // here, writing &marks to store address of "marks" will considered wrong as marks is array type and array is address in itsel
      cout<<"The value of marks[0] is "<<setw(3)<<*p<<endl;

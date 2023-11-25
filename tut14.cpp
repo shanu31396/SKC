@@ -10,20 +10,20 @@ typedef struct employ
         int eId;    // 4 bytes will be used
         char favChar;   // 1 byte will be used
         float sal;  // 4 bytes will be used
-
+    }ep; 
+    
         // if we had created a structure, 9 bytes would allocate here
 
         /*
-        we r creating struct employ as a datatype for variable nmaed "employee";
-        then, a datatype which is of struct employee type is created now, 
-        we can use employees names as variables having data type "struct employee
-        now we'll enter value to each variable(employee names)" 
-        [employeename.datatype defined in struct] 
-        then we can use it with cout
+        we are creating struct employ as a datatype in which we defined necessary built-in datatypes;   [line 7 to 12]
+        now, we can use employees names as variables with newly defined datatype [line 53 55 57]
+        now, we can treat it as normal variable just put variable name and enter value in below format
+        [variable name.required variable name defined in struct]   [line 59] 
+        then we can use it with cout [line 71]
         */
 
 
-    }ep; 
+
 
     union money
     {
@@ -33,23 +33,23 @@ typedef struct employ
         float pounds; //4 byte
 
     }; 
-        // here, in defining union C++ will allocate a combined memory for all variables in union
-        // so, 8 bytes of space will be taken here in memory
+        // here, in defining union, C++ will allocate a combined memory for all variable
+        // so,min. 1 and max. 4 bytes of space will be taken here in memory as per need
+        // koi 1 to koi 4 lega, agr 1 wala mangega to 1 hi denge agr koi kuchh ni bola to 4 le lenge,fir 1 ka demand hua 
+        // to 1 dekar memory save kr lenge aur 4 manga to apne pass 4 bytes to hai hi
 
-
-
-       // here , in this user-defined datatype, we can use one datatype only only once
-       // so, here we'll use very important feature of C++ which is memory management
-       // union provides better meomry management   
-       // C++ will share memory among these here
+        // here, in this user-defined datatype, we can use one datatype only once
+        // so, here we'll use very important feature of C++ which is memory management
+        // union provides better meomry management   
+        // C++ will share memory among these here
 
 
 int main(){
     // Structure is used to make a collection of objects that are not of similar type
     // It is just inverse of array because in array we make collection of items of similar type 
-    union money m1;
-    m1.rice = 34;
-    cout<<m1.rice;
+    // union money m1;
+    // m1.rice = 34;
+    // cout<<m1.rice<<endl;
     
     // ep sk;
     
@@ -69,7 +69,7 @@ int main(){
     // st.favChar  = 'E';
     // st.sal = 987654321;
       
-    // cout<<"The value is "<<sk.eId<<endl;
+    //cout<<"The value is "<<sk.eId<<endl;
     // cout<<"The value is "<<sk.favChar<<endl;
     // cout<<"The value is "<<sk.sal<<endl;
     
@@ -81,6 +81,13 @@ int main(){
     // cout<<"The value is "<<st.favChar<<endl;
     // cout<<"The value is "<<st.sal<<endl;
     
+
+    enum meal{breakfast, lunch, dinner};     // user-defined datatype declared
+    meal m1 = lunch;                         // new_datatype variable_name = already defined input
+    cout<<m1<<endl;                          // printing the variable's value
+    cout<<(m1==2)<<endl;                     // // printing variable's value by checking the given condition
+
+
     
     
 
