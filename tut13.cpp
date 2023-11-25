@@ -11,7 +11,7 @@ int main(){
 
 
     //1st method    (most preferred for me when there are constraints on no. of input)
-    int marks[5]={23,34,35,56,67};  // this square bracket is udes to declare array size 
+    int marks[5]={23,34,35,56,67};  // this square bracket is used to declare array size 
 
     
     
