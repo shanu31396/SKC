@@ -3,11 +3,13 @@ using namespace std;
 
 int main()
 {
-   int num, sum=0;
+   int num,n, sum=0;
+   cout<<"Enter the no. of numbers whose sum you want :";
+   cin>>n;
 
-   cout<<"Please enter 10 numbers:"<<endl;
+   cout<<"Please enter "<<n<<" numbers:"<<endl;
 
-  for(int i=0; i<10; i++)
+  for(int i=1; i<=n; i++)
   {
    // input is stored in num
     cin>>num;
@@ -18,3 +20,4 @@ int main()
      cout << "\n The sum of 10 numbers is: "<<sum << endl;
      return 0;
 }
+ 
