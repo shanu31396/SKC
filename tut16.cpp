@@ -44,7 +44,7 @@ int main(){
     swap( &x, &y);  // the moment when this function get call, program takes a pause and goes to swap function 
     // here, swap function just swaps the value of x and y
     cout<<"The value of x and y after swapping by using pointer reference is "<<x<<" and "<<y<<" respectively ."<<endl;
-    // here, the value get swapped in memory and x become 2 and y become 1
+    // here, the value get swapped in memory and x became 2 and y become 1
     // now, the next function swapRefVar will work accordingly by considering x as y and y as x
     swapRefVar(x,y); // this will swap a and b using reference variables
     cout<<"The value of x and y after swapping is "<<x<<" and "<<y<<" respectively ."<<endl;
