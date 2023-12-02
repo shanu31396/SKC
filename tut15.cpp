@@ -73,8 +73,8 @@ int sum(int a, int b){
 //}
 
 
-// line 17 me sum ko bata diya gaya h ki jaha pr v sum function define kiya gaya h waha num1 aur num2 ko le jao
+// line 7 me sum ko bata diya gaya h ki jaha pr v sum function define kiya gaya h waha num1 aur num2 ko le jao
 // sum function ko pehle se bata diya gaya h ki tumhare pas jo v value aaegi wo int type hi hogi
 
-// in [line 17] sum has been assigned with values num1 and num2, and has been asked that wherever you find sum function put num1 and num2 in it
+//in [line19]sum function's prototype has been assigned with values num1 and num2,and has been asked that wherever you find sum function put num1 and num2 in it
 // in [line 7] it's already asked to sum function that the value you will got will be of int type only, proceed further and return result variable
