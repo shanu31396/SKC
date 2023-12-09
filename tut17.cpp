@@ -1,3 +1,5 @@
+// INLINE FUNCTIONS, DEFAULT ARGUMENTS AND CONSTANT ARGUMENTS
+
 #include<iostream>
 using namespace std;
 
@@ -17,6 +19,18 @@ using namespace std;
 
 int product(int a, int b){
     static int c = 0;
+    // here, what's happening in this function is that the value is retained
+    // sttic int = 0 will execute once and as program goes to second line
+    // it returns value according to given stucture and add it in the line of main function 
+    // then when product function is again called in 2nd line it will go to product function created above main
+    // and here it will found that value of c is retained as executed in structure line during execution of 
+    //1st line of main function and proceed further 
+    // with it,s current value
+
+    // its not a good practice to use inline function with static , loop statement , switch statement etc. as it'll be confusing
+    // generally functions forgot their variables after execution but when variable is declared as static type 
+    // then value stored in that variable is retained in the memory 
+    // and fuction never forgets that value 
     c = c + 1;
     return a*b+c;
 }
