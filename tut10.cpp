@@ -76,8 +76,8 @@ int main(){
          here, first, what to do is explained then given the condition
          
          ONE THING TO KEEP IN MIND HERE IS THAT 
-         IN THIS DO-WHILE LOOP CASE,THE CODE WILL DEFINITELY RUN ONE TIME IRRESPECTIVE OF WHATEVER BE THE CONDITION IS then it will check
-         the condition and if it found false,code stops, but if found true, loop will execute normally */
+         IN THIS DO-WHILE LOOP CASE,THE CODE WILL DEFINITELY RUN ONE TIME IRRESPECTIVE OF WHATEVER THE CONDITION IS then it will check
+         the condition, if found false, code stops, if found true, loop will execute normally */
     
      return 0;
 }

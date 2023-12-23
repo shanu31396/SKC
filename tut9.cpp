@@ -20,7 +20,7 @@ int main(){
     cin>>age;
 
 
-    //  TO USE IF ELSE LADDER IN THIS tut9.cpp, COMMENT OUT SWITCH CASE AND TO USE SWITCH CASE, COMMENT OUT IF ELSE LADDER
+    //  TO USE IF ELSE LADDER IN THIS tut9.cpp, COMMENT OUT SWITCH CASE AND VICE VERSA
   
 
     //  SELECTION CONTROL STRUCTUTR --- IF ELSE-IF ELSE LADDER
@@ -34,8 +34,12 @@ int main(){
     else if(age==18){
         cout<<"As being a kid, you'll get a kid pass for the party"<<endl;
     }
+    else if ((age>18)&&(age<=100))
+    {
+        cout<<"Welcome to the party";
+    }
     else{
-        cout<<"Welcome to the party"<<endl<<endl; 
+        cout<<"You are died"<<endl<<endl; 
     }
 
     //  SELECTION CONTROL STRUCTUTR --- SWITCH CASE STATEMENTS
@@ -59,6 +63,7 @@ int main(){
 
     // after executing any of above defined switch case statement it will jump out from there to this cout command
     cout<<"Done with switch case";
+    // i.e. take exit froom the loop
     
     return 0;
 }
