@@ -58,7 +58,7 @@ int main(){
 
 
 // --------------------TYPECASTING-------------------- //
-    //typecasting refers to conversion of one datatype to another
+    //typecasting refers to the conversion of one datatype to another datatype
     int x = 3;
     float y = 34.576;
     char z = 'a';
