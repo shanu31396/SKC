@@ -16,7 +16,7 @@ typedef struct employ
 
         /*
         we are creating struct employ as a datatype in which we defined necessary built-in datatypes;   [line 7 to 12]
-        now, we can use employees names as variables with newly defined datatype [line 53 55 57]
+        now, we can use employees names as variables with newly defined datatype [line 54 56 58]
         now, we can treat it as normal variable just put variable name and enter value in below format
         [variable name.required variable name defined in struct]   [line 59] 
         then we can use it with cout [line 71]
@@ -84,11 +84,12 @@ int main(){
 
     enum meal{breakfast, lunch, dinner};     // user-defined datatype declared
     meal m1 = lunch;                         // new_datatype variable_name = already defined input
-    cout<<m1<<endl;                          // printing the variable's value
+    cout<<m1<<endl;                          // printing the variable's value which shows position of value entered in that variable
     cout<<(m1==2)<<endl;                     // // printing variable's value by checking the given condition
 
-
-    
+    enum deal{d9,d8,d7};
+    deal D9=d9;
+    cout<<D9<<endl;
     
 
     return 0;
