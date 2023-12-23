@@ -14,7 +14,7 @@ int main(){;
     cout<<"The address of a is "<<&a<<" ."<<endl;
         
     // * --->(Value at)Dereference operator
-            // if we put * b/f pointer variable, it tells the value stored in that pointer variable
+            // if we put * b/f pointer variable, it tells the value of the variable whose address is stored in that pointer variable
     
     // all these lines print the value of variable a
     cout<<"The value at address b is "<<*&a<<" ."<<endl;
