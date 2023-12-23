@@ -11,14 +11,14 @@ int sum(int a, int b);  // PROTOTYPE
 //     }
 
     // if we define the above defined function below int main() then it will throw an error 
-    // and answer to this issue is function prototype
+    // and answer to this issue is : function prototype
     // function prototype tells the compiler earlier that these functions will come
 
 // FUNCTION PROTOTYPE's syntax is :
 // type function-name (arguments);
-// eg: int sum(int a, int  b)
+// eg: int sum(int a, int  b);
 
-// AUR YE FALTU SI CHIZ HAI, PROTOTYPE LIKHNE SE ACHHA HAI KI PURA FUNCTION HI LIKH DEIN COZ. ALMOST HALF FUNCTION TO LIKH CHUKE HOTE HI HAI 
+// AUR YE FALTU SI CHIZ HAI, PROTOTYPE LIKHNE SE ACHHA HAI KI PURA FUNCTION HI LIKH DEIN COZ. ALMOST HALF FUNCTION TO LIKH HI CHUKE HOTE HAI 
 // PROTOTYPE KE NAAM PAR, YE BS ASSURITY PROVIDE KARTA HAI KI AAEGA, AAEGA AAJ NAHI TO KAL JARUR AAEGA YE int sum() NAAM KA FUNCTION JARUR AAEGA
 // STAY ALERT FUNCTION PROTOTYPE ONLY PROVIDES ASSURITY, NOT GUARANTEE
 
@@ -30,6 +30,7 @@ int sum(int a, int b);  // PROTOTYPE
         int sum(int , int );    -->> ACCEPTABLE
         void g( void ); -->> ACCEPTABLE
         void g();   -->> ACCEPTABLE
+        
         int sum(int a, b);  -->> NOT-ACCEPTABLE
         
         
@@ -40,7 +41,7 @@ int sum(int a, int b);  // PROTOTYPE
     Here, we should know some sort of terminology :
     Formal parameters i.e. int a and int b ,and actual parameters i.e. num1 and num2
 
-    Formal parameters a and b will be taking values from actual parameters num1 and num2
+    Formal parameters a and b will take values from actual parameters num1 and num2
 
     the name of actual and formal parameters can be same,it will not throw any error but can create confusion
 
@@ -69,7 +70,7 @@ int sum(int a, int b){
 // NO.
 
 // we can use void g(){
-//  if we don't a function to return value after it's completion
+//  if we don't want a function to return value after it's completion
 //}
 
 
