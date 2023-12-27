@@ -20,7 +20,7 @@ int main(){
     
     //operator precedence in C++
     int x = 3, y = 4;
-    int c = ((((a*5)+b)-45)+78);
+    c = ((((a*5)+b)-45)+78);
     // this will be solved according to operator precedence which has been given on the website
     //https://en.cppreference.com/w/cpp/language/operator_precedence
     // short trick: MDRAS for Multiply >> Divide >> Remainder >> Addition >> Subtraction

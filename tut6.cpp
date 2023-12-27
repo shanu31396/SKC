@@ -3,10 +3,11 @@
 //Header file is of two types-
 
 // i) System header files
-#include<iostream> // this is syntax of system header file
+//#include<iostream> // this is syntax of system header file
 
 // ii) User-defined header files
-// #include"this.h"// this header file needs to be defined in directory by the programmer as compiler don't know about it
+#include<bits/stdc++.h>
+//#include"this.h"// this header file needs to be defined in directory by the programmer as compiler don't know about it
 using namespace std;
 int main(){
     cout<<"Operators in C++\n";
