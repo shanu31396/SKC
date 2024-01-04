@@ -57,7 +57,7 @@ int main(){
     
     // ep st;
     
-    // sk.eId = 1;
+    ep.eId = 1;
     // sk.favChar = 'c';
     // sk.sal = 99999999999;
     
