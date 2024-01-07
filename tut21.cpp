@@ -1,3 +1,5 @@
+//  CLASSES, PUBLIC AND PRIVATE ACCESS MODIFIERS
+
 #include<iostream>
 using namespace std;
 // class and struct are almost equivalent but
@@ -33,19 +35,20 @@ class tut21
     //     }
 int main(){
     int a,b,c;
+    cout<<"Enter the values of a, b ans c : ";
     cin>>a>>b>>c;
     tut21 cat;
     tut21 swan;
     cat.krishna(a, b, c);
-    swan.krishna(100,107,108);
+    int d,e,f;
+    cout<<"Enter the values of d, e ans f : ";
+    cin>>d>>e>>f;
+    swan.krishna(d, e, f);
     cat.d=4;
     cat.e=5;
     swan.d=9;
     swan.e=10;
     cat.getData();
     swan.getData();
-    
-    
-    
-    return 0;
+      return 0;
 }
