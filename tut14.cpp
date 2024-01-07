@@ -60,12 +60,12 @@ int main(){
     // sr.pounds = 9.89;
     // cout<<sr.pounds;
 
-    // union money sl;
+    // um sl;
     // sl.car = 'a';
     // cout<<sl.car;
     // Structure is used to make a collection of objects that are not of similar type
     // It is just inverse of array because in array we make collection of items of similar type 
-    // union money m1;
+    // um m1;
     // m1.rice = 34;
     // cout<<m1.rice<<endl;
     
