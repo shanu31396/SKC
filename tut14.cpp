@@ -25,14 +25,15 @@ typedef struct employ
 
 
 
-    union money
+    typedef union money
     {
         /* data */
         int rice; //4 byte
         char car; //1 byte
         float pounds; //4 byte
 
-    }; 
+    }um;
+  
         // here, in defining union, C++ will allocate a combined memory for all variable
         // so,min. 1 and max. 4 bytes of space will be taken here in memory as per need
         // koi 1 to koi 4 lega, agr 1 wala mangega to 1 hi denge agr koi kuchh ni bola to 4 le lenge,fir 1 ka demand hua 
@@ -45,6 +46,23 @@ typedef struct employ
 
 
 int main(){
+    um sk;
+    sk.rice = 4;
+    cout<<sk.rice<<endl;
+    sk.pounds = 5.98;   
+    cout<<sk.pounds<<endl;
+
+    // um sl;
+    // sl.rice = 8;
+    // cout<<sl.rice<<endl;
+
+    // um sr;
+    // sr.pounds = 9.89;
+    // cout<<sr.pounds;
+
+    // union money sl;
+    // sl.car = 'a';
+    // cout<<sl.car;
     // Structure is used to make a collection of objects that are not of similar type
     // It is just inverse of array because in array we make collection of items of similar type 
     // union money m1;
@@ -81,14 +99,14 @@ int main(){
     // cout<<"The value is "<<st.favChar<<endl;
     // cout<<"The value is "<<st.sal<<endl;
     
-    enum meal{breakfast, lunch, dinner};     // user-defined datatype declared
-    meal m1 = lunch;                         // new_datatype variable_name = already defined input
-    cout<<m1<<endl;                          // printing the variable's value which shows position of value entered in that variable
-    cout<<(m1==2)<<endl;                     // // printing variable's value by checking the given condition
+    // enum meal{breakfast, lunch, dinner};     // user-defined datatype declared
+    // meal m1 = lunch;                         // new_datatype variable_name = already defined input
+    // cout<<m1<<endl;                          // printing the variable's value which shows position of value entered in that variable
+    // cout<<(m1==2)<<endl;                     // // printing variable's value by checking the given condition
 
-    enum deal{d9,d8,d7};
-    deal D9=d9;
-    cout<<D9<<endl;
+    // enum deal{d9,d8,d7};
+    // deal D9=d9;
+    // cout<<D9<<endl;
 
     
 
