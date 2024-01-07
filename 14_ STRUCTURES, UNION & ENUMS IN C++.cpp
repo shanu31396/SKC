@@ -4,7 +4,7 @@
 using namespace std;
 
 //Struct, union and enum are user-defined datatypes 
-typedef struct employ
+typedef union employ
     {
         /* data */
         int eId;    // 4 bytes will be used
@@ -25,14 +25,14 @@ typedef struct employ
 
 
 
-    typedef union money
-    {
-        /* data */
-        int rice; //4 byte
-        char car; //1 byte
-        float pounds; //4 byte
+    // typedef union money
+    // {
+    //     /* data */
+    //     int rice; //4 byte
+    //     char car; //1 byte
+    //     float pounds; //4 byte
 
-    }um;
+    // }um;
   
         // here, in defining union, C++ will allocate a combined memory for all variable
         // so,min. 1 and max. 4 bytes of space will be taken here in memory as per need
@@ -46,11 +46,11 @@ typedef struct employ
 
 
 int main(){
-    um sk;
-    sk.rice = 4;
-    cout<<sk.rice<<endl;
-    sk.pounds = 5.98;   
-    cout<<sk.pounds<<endl;
+    // um sk;
+    // sk.rice = 4;
+    // cout<<sk.rice<<endl;
+    // sk.pounds = 5.98;   
+    // cout<<sk.pounds<<endl;
 
     // um sl;
     // sl.rice = 8;
@@ -69,35 +69,43 @@ int main(){
     // m1.rice = 34;
     // cout<<m1.rice<<endl;
     
-    // ep sk;
+    ep sk;
     
-    // ep sr;
+    ep sr;
     
-    // ep st;
+    ep st;
     
-    // sk.eId = 1;
-    // sk.favChar = 'c';
-    // sk.sal = 99999999999;
+    sk.eId = 1;
+    cout<<"The value is "<<sk.eId<<endl;
+    sk.favChar = 'c';
+      cout<<"The value is "<<sk.favChar<<endl;
+    sk.sal = 9;
     
-    // sr.eId = 2;
-    // sr.favChar = 'D';
-    // sr.sal = 99999;
+    sr.eId = 2;
+    sr.favChar = 'D';
+    sr.sal = 56499.23;
+    sr.favChar = 'f';
     
-    // st.eId = 3;
-    // st.favChar  = 'E';
-    // st.sal = 987654321;
+    st.eId = 3;
+    st.favChar  = 'E';
+    st.sal = 91;
       
-    //cout<<"The value is "<<sk.eId<<endl;
-    // cout<<"The value is "<<sk.favChar<<endl;
-    // cout<<"The value is "<<sk.sal<<endl;
+    /*
+    THE DIFFERENCE BETWEEN STRUCT AND UNION IS THAT STRUCT ONLY UPDATES THE VARIABLE WHOSE VALUE IS UPDATED USING DOT (i.e. sk.abc=5;    sk.abc=6) AND PRINT REST AS IT WAS
+    WHILE IN CASE OF UNION IT ONLY CONSIDERES THE LAST DATATYPE AS MAIN DATATYPE AND LEFT BEHIND THE REST DATATYPES AS GARBAGE VALUE IRRESPECTIVE OF WHAT KIND OF DATATYPE IS THAT
+    */
+
+
+  
+    cout<<"The value is "<<sk.sal<<endl<<endl;
     
-    // cout<<"The value is "<<sr.eId<<endl;
-    // cout<<"The value is "<<sr.favChar<<endl;
-    // cout<<"The value is "<<sr.sal<<endl;
+    cout<<"The value is "<<sr.eId<<endl;
+    cout<<"The value of favchar is      "<<sr.favChar<<endl;
+    cout<<"The value of sal is   "<<sr.sal<<endl<<endl;   
     
-    // cout<<"The value is "<<st.eId<<endl;
-    // cout<<"The value is "<<st.favChar<<endl;
-    // cout<<"The value is "<<st.sal<<endl;
+    cout<<"The value is "<<st.eId<<endl;
+    cout<<"The value is "<<st.favChar<<endl;
+    cout<<"The value is "<<st.sal<<endl<<endl;
     
     // enum meal{breakfast, lunch, dinner};     // user-defined datatype declared
     // meal m1 = lunch;                         // new_datatype variable_name = already defined input
