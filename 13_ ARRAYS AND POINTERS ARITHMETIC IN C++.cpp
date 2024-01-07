@@ -9,12 +9,9 @@ using namespace std;
 int main(){
     // int i=0;
 
-
     // //1st method    (most preferred for me when there are constraints on no. of input)
     // int marks[5]={23,34,35,56,67};  // this square bracket is used to declare array size 
-
-    
-    
+ 
     // //2nd method    (most preferred for me when there is no constraints on no. of input)
     // int mathmarks[]={22,23,45,5,6};
 
@@ -71,15 +68,15 @@ int main(){
     // Pointers and arrays
 
   //UNLIKE NORMAL VARIABLES, ARRAY(considered as a kind of variable here as an instance only to got understood) IS ADDRESS IN ITSELF
-    // i.e. int a=5 mein a ke pehle "&" lagane se variable ka address milta hai
-    //but, variable ka array declare hone k baad, int sk[], sirf variable(here, sk) likhne se hi address mil jata h
+    // i.e. using "&" b/f a in int a gives address 
+    //but, when a variable is written as array, there is no need to use "Address of" operator(&) to get address
     // to declare variable as an array, we use "[]" this sign after writing variable's name or array name
     //for eg. int [system]={5};     here, variable named "system" has been declared as an array, got a value of 5 stored in it
 
     // so, to get value stored in variable, we go through pointer's steps
     cout<<endl;
     int marks[5]{9,8,7,6,5};
-     int* p = marks; // here, writing &marks to store address of "marks" will considered wrong as marks is array type and array is address in itself
+     int* p = marks; // here, writing &marks to store address of "marks" will considered wrong as marks is of array type and array is address in itself
      cout<<"The value of marks[0] is "<<setw(3)<<*p<<endl;      //  *p represents marks[0]
      cout<<"The value of marks[1] is "<<setw(3)<<*(p+1)<<endl;  //  *(p+1) represents marks[1]
      cout<<"The value of marks[2] is "<<setw(3)<<*(p+2)<<endl;  //  *(p+2) represents marks[2]
