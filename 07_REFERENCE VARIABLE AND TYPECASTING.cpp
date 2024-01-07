@@ -20,10 +20,10 @@ int main(){
 // --------------------FLOAT, DOUBLE AND LONG-DOUBLE LITERALS-------------------- //
     float d = 34.4;
     d = 34.4f;    
-    d = 34.4F; //all three lines represent same datatype as mentioned already before their variable's name
+    d = 34.4F; //all three lines represent the same datatype as mentioned already before their variable's name
     long double e = 34.4;    
     e = 34.4l;
-    e = 34.4L; //all three lines represent same datatype as mentioned already before their variable's name 
+    e = 34.4L; //all three lines represent the same datatype as mentioned already before their variable's name 
 
 
     // By default, decimal numbers are considered as double in C++ compiler and hence, in

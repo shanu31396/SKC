@@ -23,12 +23,12 @@ int main(){
         --->> at first, "initialization" will initiate the code i.e. i=0, this happens only once and will never run again 
 
 
-        --->>then, it will go to next part of "for" loop which is "condition" and check for whether condition is true or false,
-         if false, then code will stop executing, 
-         if true, then loop code will execute cout command
+        --->>then, it will go to the next part of "for" loop which is "condition" and check for whether condition is true or false,
+         if false, then the code will stop executing, 
+         if true, then the loop code will execute cout command
 
 
-        --->>then, it will goes in "updation" part and just after updation executes,
+        --->>then, it will goes to "updation" part and just after updation executes,
          the initial value which was 0 here, will got updated and everything will be repeated till condition is true*/
 
 
@@ -36,7 +36,7 @@ int main(){
           for (int i = 0; i < 4; i++)
      {                   // THIS
          cout<<i<<endl;  //     IS
-    //                     //       LOOP BODY
+    //                     //      LOOP BODY
      }
     
     cout<<endl;
@@ -47,8 +47,8 @@ int main(){
     
 // here, at first, we set the value of our declared variable
 // program will simply go in next line and will check whether condition under "while" is true or false
-// if false, it will exit 
-// if true, it will execute the program
+// if false, program will take exit 
+// if true, program will be executed
 // then goes to "updation" and repeats from "while" by checking condition 
 
     int j = 6;
@@ -59,7 +59,7 @@ int main(){
     }
 
     cout<<endl;
-    // we can also create infinite while loop by inserting a condition which never get fasle
+    // we can also create infinite while loop by inserting a condition which never get false
     
 
     //3. DO-WHILE LOOP IN C++

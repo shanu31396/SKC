@@ -56,7 +56,7 @@ int main(){
     /*------------Logical Operators------------
     && logical AND operator. Here, both or all given condition needs to be true
     || logical OR operator. Here, any one condition out of given condition needs to be true
-    ! logiacl NOT operator. It just reverses the result which will come. Syntax:  (!(a==b)||(a<b)) */
+    ! logiacl NOT operator. It just reverse the result. Syntax:  (!(a==b)||(a<b)) */
 
     cout<<"The value of ((a == b) && (a>b)) is:"<<((a == b) && (a>b))<<endl;
     cout<<"The value of ((a == b) || (a>b)) is:"<<((a == b) || (a>b))<<endl;

@@ -16,7 +16,7 @@ There are three types of control structure--
 using namespace std;
 int main(){
     int age;
-    cout<<"Tell me your age :"<<endl;
+    cout<<"Tell me your age(in years) :"<<endl;
     cin>>age;
 
 
@@ -24,7 +24,7 @@ int main(){
   
 
     //  SELECTION CONTROL STRUCTUTR --- IF ELSE-IF ELSE LADDER
-    // one thing to keep in mind while creating conditions in if-else is the sequence in which statements or conditions are placed
+    // one thing to keep in mind while creating conditions in if-else is that the sequence in which statements or conditions are placed
     if(age<1){
         cout<<"You are not yet born"<<endl;
     }
@@ -42,10 +42,10 @@ int main(){
         cout<<"You are died"<<endl<<endl; 
     }
 
-    //  SELECTION CONTROL STRUCTUTR --- SWITCH CASE STATEMENTS
+    //  SELECTION CONTROL STRUCTURE --- SWITCH CASE STATEMENTS
     // One important thing to keep in mind while learning about switch case is that--
     // we must have to include "break;" after each case as it behaves as a full stop and stops the execution of code
-    // after using case defined in it's paragraph
+    // after using the case defined in it's paragraph
 
     switch(age){
         case 18:

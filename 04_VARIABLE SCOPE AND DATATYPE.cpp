@@ -1,7 +1,7 @@
 //VARIABLE SCOPE AND DATATYPE
 
 // Variable is just a container to store data. 
-//RULE TO DECLARE VARIABLES IN C++
+//RULES TO DECLARE VARIABLES IN C++
     /*
     variable name can range from 1 to 255 characters
     all variable names must begin with a letter or an underscore(_)
@@ -38,7 +38,8 @@ using namespace std;
     
     int main(){
     //  ii) Local variable
-// yes, global and local vaiable can have same name
+// does global and local variable can have same name ? 
+// yes
     int a = 1, b = 2;
     float c = 3.1;
     c = 3.2;

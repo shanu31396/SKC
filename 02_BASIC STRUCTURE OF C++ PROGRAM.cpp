@@ -2,6 +2,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"As 2nd lecture had only theoretical part . So, there is no coding here";
+    cout<<"As 2nd lecture only had theoretical part . So, there is no coding here";
     return 0;
 }

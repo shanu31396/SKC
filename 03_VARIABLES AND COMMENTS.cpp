@@ -1,7 +1,7 @@
 //VARIABLES AND COMMENTS
 #include<iostream>
 using namespace std;
-//I'm learning programming with Youtube channel named Code with Harry.It's an amazing channel!.
+//I'm mastering programming with Youtube channel named Code with Harry.It's an amazing channel!.
 /*This
 channel
 is

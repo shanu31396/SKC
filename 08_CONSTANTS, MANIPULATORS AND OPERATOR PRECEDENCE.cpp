@@ -1,12 +1,12 @@
 //CONSTANTS, MANIPULATORS AND OPERATOR PRECEDENCE
 #include<iostream>
-#include<iomanip> // this is a manipulator | manipulator is used to make our program view better by formatting the text
+#include<iomanip> // this is a manipulator | manipulator is used to make our program's view better by formatting the text
 using namespace std;
 int main(){
     // constant in C++
     const int a = 5;
     cout<<"Value of a is :"<<a<<endl;
-    //a = 6; this line will throw an error as it has already been declared that the given variable is of constant type
+    //a = 6; this line will throw an error as it has been already declared that the given variable is of constant type
 
     //manipulators in C++ (use of iomanip named header file here)
     int b = 3, c = 94, d = 345;
