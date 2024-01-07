@@ -1,9 +1,8 @@
 // POINTERS IN C++
 #include<iostream>
 using namespace std;
-int main(){;
+int main(){
     // what is pointer?
-    // a simple answer to this question is 
     // it is datatype whih holds the ADDRESS of other datatypes
 
     int a=3;
@@ -28,15 +27,7 @@ int main(){;
     cout<<"The address of b is :"<<c<<endl;
     cout<<"The value at address c is :"<<*c<<endl;
     cout<<"The value at address value_at(value_at(c)) is :"<<**c<<endl;
-    //  *c =  b  ,c pe pointer(*) lagane se b pr pahucha
-    // **c = *b  ,b par pahuch k ek value diya, ab b pr pointer(*)
-    // se uskey andar stored address ka value mila jo ki a ka value tha
+    //  *c =  b  ,    using pointer with c will be redirected to b
+    // **c = *b  ,    b gives an output, then using pointer with b will gives a value of address stored in it, which is the value of a
     return 0;
 }  
- 
-// kisi VARIABLE SE PEHLE "&" laga dein to us variable ka 
-// addres mil jata h jise hum pointer k andar store kar sakte hain
- 
-// pointer sirf address store karte hain
-
-// POINTER SE PEHLE "*" lagaane se uske andar stored address ki value mil jati h
