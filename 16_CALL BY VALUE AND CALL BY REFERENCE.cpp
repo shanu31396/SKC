@@ -7,14 +7,13 @@ using namespace std;
 int sum(int a ,int b){
     int c = a + b;
     return c;
-}
+} 
 /*
 void swap(int a, int b){
     int temp = a;
     a = b;
     b = temp;
 }                    Value swapped in this function won't be printed
-
 
 // the swapping shown in 12th line will work, if it is just in a normal way not in function form
 
@@ -39,7 +38,7 @@ int &swapReferenceVar(int &a, int &b){
     return a;
 }
 int main(){
-    // HERE ONE THING TO KEEP IN MIND IS THAT WE HAVE USED THE FUNCTIONS IN A CONSECUTIVE MANNER SO THE VALUE OF X AND Y WILL BE UPGRADED FOR EACH NEXT FUNCTION    
+    // HERE ONE THING TO KEEP IN MIND IS THAT WE HAVE USED THE FUNCTIONS IN A CONSECUTIVE MANNER SO THE VALUE OF X AND Y WILL BE UPGRADED ACCORDINGLY    
     int x,y;
     cout<<"Enter the value of x : "<<endl;
     cin>>x;

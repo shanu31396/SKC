@@ -17,7 +17,7 @@ class tut21
         /*      [SECOND METHOD]*/ void krishna(int a1, int b1, int c1){       
             a=a1;
             b=b1;
-            c=c1;
+            c=c1; 
         }
         void getData(){
             cout<<"The value of a is :"<<a<<endl;

@@ -22,7 +22,7 @@
  harry.salary = 9 makes no sense if salary is private
  i.e. overwriting of private variables in not possible
 
- now coming to the topic which is
+ now coming to the topic which is   
 
  NESTING OF MEMBER FUNCTIONS
      ---> agar aapka koi v ek function hai jo ki aapne already bana rakha hai
@@ -31,7 +31,7 @@
 
      we can call another function from a function without using dot
  */
-
+ 
 #include <iostream>
 #include <string>
 
