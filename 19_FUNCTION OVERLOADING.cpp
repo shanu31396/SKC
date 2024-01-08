@@ -1,9 +1,7 @@
 // FUNCTION OVERLOADING
 
 //  Function overloading means a function used for multipe tasks
-// C++ uses polymorphism which means ek hi cheez jiske alag alag form ho
-
-
+// C++ uses polymorphism which means something which exists in more than one form
 
 #include<iostream>
 using namespace std;
@@ -19,6 +17,7 @@ int sum(int a, int b, int c){
 } 
 
 int volume(int a){
+    cout<<"Using function with one arguments ";
     return a*a*a;
 }
 
@@ -27,6 +26,7 @@ int area(int r){
 }
 
 double volume(float r, float h){
+    cout<<"Using function with two arguments ";
     return 3.14*r*r*h;
 }
 
@@ -45,4 +45,5 @@ int main(){
     return 0;
 }
 
-// it ultimately means you can create different functions with same name and whch function is yo use will figure out automatically matching the no. of arguments
+// it ultimately means you can create different functions with same name and which
+// function will be used is automatically determined by matching the no. of arguments

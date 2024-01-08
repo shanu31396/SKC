@@ -1,14 +1,12 @@
 // INTRODUCTION TO OBJECT ORIENTED PROGRAMMING IN C++
 
-
 #include<iostream>
 using namespace std;
+
 int main(){
     /*  
-    
     What is OOPs?
-    It is an approach to make our programs better by eliminating the pitfall of conventional  programming methods, like to make bug free programs
-   
+    It is an approach to make our programs better by eliminating the pitfall of conventional programming methods, like to make bug free programs
    
     WHY OOPS?
     C++ language was designed with the main intention of adding object-oriented features to C language.
@@ -17,13 +15,11 @@ int main(){
     As a result, the possibility of  not addressing the problem in an effective manner was high.
     Also, as data was almost neglected, data security was easily compromised.
     Using classes solves this problem by modelling program as a real world scenario.
- 
-   
+    
     // PROCEDURAL ORIENTED PROGRAMMING LANGUAGE
     Main focus is on function not on flow of data
     Functions can either use local or global data
     Data moves openly from function to function
-
     
     // OBJECT ORIENTED PROGRAMMING LANGUAGE
     Works on the concept of classes and objects
@@ -33,23 +29,20 @@ int main(){
     Classes are just like templates and they don't consume memory but when we make objects from class(i.e. template) it takes memory 
     according to variables defined in that class
 
-
     // BASIC TERMINOLOGY USED IN OOPs
-    Classes:-   basic template for creating objects 
-    Object:-    basic run time entities
+    Classes:-   Basic template for creating objects 
+    Object:-    Basic run time entities
     (Data abstraction) & (Encapsulation):-  (Wrapping data and functions) into (single unit)
     Inheritance:-   Properties of one class can be inherited into others
-    Polymorphism:-  ability to take more than one form
-    Dynamic Binding:-   code which will execute is not known until the program runs
+    Polymorphism:-  Ability to take more than one form
+    Dynamic Binding:-   Code which will execute is not known until the program runs
     Message Passing:-   Object.messge(Information) call format
-
 
     // BENEFITS OF OBJECT ORIENTED PROGRAMMING
     Better code reusability using objects and inheritance
     Principle of data hiding helps build secure systems
     Multiple objects can co-exist without any interference
     Software complexity can be managed easily
- 
-   */
+    */
     return 0;
 }
