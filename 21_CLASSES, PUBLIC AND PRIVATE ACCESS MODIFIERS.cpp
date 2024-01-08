@@ -35,13 +35,13 @@ class tut21
     //     }
 int main(){
     int a,b,c;
-    cout<<"Enter the values of a, b ans c : ";
+    cout<<"Enter the values of a, b and c : ";
     cin>>a>>b>>c;
     tut21 cat;
     tut21 swan;
     cat.krishna(a, b, c);
     int d,e,f;
-    cout<<"Enter the values of d, e ans f : ";
+    cout<<"Enter the values of d, e and f : ";
     cin>>d>>e>>f;
     swan.krishna(d, e, f);
     cat.d=4;
