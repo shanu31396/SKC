@@ -95,3 +95,46 @@ int main(){
 //          p is pointer and i is increment arbitrary constant 
     return 0;
 } 
+
+
+/*application of array
+
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,row,col;
+    cout<<"enter the no. of rows : ";
+    cin>>row;
+    cout<<"enter the no. of columns : ";
+    cin>>col;
+    int m1[row][col],m2[row][col],add[row][col];
+    cout<<"enter the value of 1st matrix :";
+    for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+            cin>>m1[i][j];
+        }
+        cout<<endl;
+    }
+    cout<<"enter the value of 2nd matrix :";
+    for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+            cin>>m2[i][j];
+        }
+        cout<<endl;
+    }
+    for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+            add[i][j]=m1[i][j]+m2[i][j];
+        }
+    }
+    cout<<"The sum of matrix is : ";
+    for(i=0;i<row;i++){
+        for(j=0;j<col;j++){
+            cout<<add[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+Here, we make an example to show the use of array*/

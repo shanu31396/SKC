@@ -4,14 +4,14 @@
 /*
  C++ was initally called C with classes by Bjarne Stroustrup
  class is just an extension of structures (in C)
- structures had limitations
+ structure had limitations
          --> members are public
          --> no method
  classes can have method(functions) and properties(values)
- classes can make few members as private and few as public as per our requirement
+ classes can make members as private and public as per our need
  class have everything as private by default, we have to write public if we wish to make something public
  but it's not compulsory to write private if we wish to declare something as private
- however we generally write private to make everything understandable
+ however, we generally write private to make everything understoodable
 
  Structures in C++ are typedefed
  you can declare objects along with the class declaration
