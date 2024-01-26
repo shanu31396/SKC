@@ -3,8 +3,8 @@
 #include<iostream>
 using namespace std;
 // class and struct are almost equivalent but
-//     the items stored in struct can be accessed from anywhere in program while in class it can be accessed through function only
-//     i.e. no security of data
+//     the items stored in struct can be accessed from anywhere in program while in class it can be accessed through functions only
+//     i.e. there is no security of data in case of struct
 //     and we can't create functions in struct
 //     because of these two reasons we use class instead of struct
 class tut21

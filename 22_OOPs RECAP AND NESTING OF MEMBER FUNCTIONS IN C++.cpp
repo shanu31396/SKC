@@ -49,7 +49,7 @@ class binary
             void display(void);
 };
 
-
+//complete today's target of 2 videos(22 and 23) from cpp, 10 of c and 30 mins. of py
 
 int main()
 {
