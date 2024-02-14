@@ -34,21 +34,24 @@ class tut21
     //         c=c1;
     //     }
 int main(){
+
     int a,b,c;
     cout<<"Enter the values of a, b and c : ";
     cin>>a>>b>>c;
     tut21 cat;
-    tut21 swan;
     cat.krishna(a, b, c);
+    cat.d=4;
+    cat.e=5;
+    cat.getData();
+
     int d,e,f;
     cout<<"Enter the values of d, e and f : ";
     cin>>d>>e>>f;
+    tut21 swan;
     swan.krishna(d, e, f);
-    cat.d=4;
-    cat.e=5;
     swan.d=9;
     swan.e=10;
-    cat.getData();
     swan.getData();
+    
       return 0;
 }
