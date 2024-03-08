@@ -3,10 +3,12 @@
 using namespace std;
 int main(){
     // what is pointer?
-    // it is datatype whih holds the ADDRESS of other datatypes
+    // it is datatype that holds the ADDRESS of other datatypes
 
     int a=3;
-    int* b = &a;
+    int* b ;    // int *b=&a;
+    b = &a;
+    *b=4;
 
     // & ---> (Address of) operator
     cout<<"The address of a is "<<b<<" ."<<endl;
