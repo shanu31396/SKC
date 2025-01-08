@@ -4,14 +4,10 @@ int main()
     int n;
     printf("Enter the number to check whether it is prime or not : ");
     scanf("%d", &n);
-    if (n <= 0)
+    if (n <= 1)
     {
         printf("Not a prime number");
         // negative numbers can't be prime or composite
-    }
-    if (n == 1)
-    {
-        printf("Not a prime number");
     }
     if (n == 2)
     {
