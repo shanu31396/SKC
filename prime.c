@@ -17,8 +17,6 @@ int main()
     {
         printf("The number is even prime");
     }
-    if (n > 2)
-    {
         for (int i = 1; i <= n; i++)
         {
             a = n % i;
@@ -33,6 +31,6 @@ int main()
         {
             printf("Composite number");
         }
-    }
+
     return 0;
 }
