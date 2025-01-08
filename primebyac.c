@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n, a, count = 0;
+    int n;
     printf("Enter the number to check whether it is prime or not : ");
     scanf("%d", &n);
     if (n <= 0)
@@ -17,22 +17,19 @@ int main()
     {
         printf("The number is even prime");
     }
-    if (n > 2)
+    for (int i = 2; i <= (n - 1); i++)
     {
-        for (int i = 1; i <= n; i++)
+        if (n % i == 0)
         {
-            a = n % i;
-            if (a == 0)
-                count++;
-        }
-        if (count < 3)
-        {
-            printf("Prime number");
+            printf("Composite");
+            break;
         }
         else
         {
-            printf("Composite number");
+            printf("Prime");
+            break;
         }
     }
+
     return 0;
 }

@@ -47,7 +47,7 @@ int main(){
     cout<<"The sum of two numbers is : "<<sum(x,y)<<endl;
     cout<<"The value of x is "<<x<<" and the value of y is "<<y<<" ."<<endl;
     // swap(x,y);       this function won't swap values
-    /* the below line will swap a and b using pointer reference*/ 
+    /* the line below will swap a and b using pointer reference*/ 
     swap( &x, &y);  // the moment when this function get call, program takes a pause and goes to swap function 
     // here, swap function just swaps the value of x and y
     cout<<"The value of x and y after being swapped by pointer reference is "<<x<<" and "<<y<<" respectively ."<<endl;
