@@ -14,6 +14,7 @@
 // It is of two types---------
 #include<iostream>
 using namespace std;
+ 
 
 // i) Global variable
     int a = 4;
@@ -40,6 +41,8 @@ using namespace std;
     //  ii) Local variable
 // does global and local variable can have same name ? 
 // yes
+    int dgh$jjk=1;
+    cout<<dgh$jjk;
     int a = 1, b = 2;
     float c = 3.1;
     c = 3.2;
