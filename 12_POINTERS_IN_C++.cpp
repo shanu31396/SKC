@@ -9,6 +9,8 @@ int main(){
     int* b ;    // int *b=&a;
     b = &a;
     *b=4;
+    *b = 5;
+    // we can update the value stored in pointer like this
 
     // & ---> (Address of) operator
     cout<<"The address of a is "<<b<<" ."<<endl;
@@ -18,9 +20,8 @@ int main(){
             // if we put * b/f pointer variable, it tells the value of the variable whose address is stored in that pointer variable
     
     // all these lines print the value of variable a
-    cout<<"The value at address b is "<<*&a<<" ."<<endl;
     cout<<"The value at address b is "<<a<<" ."<<endl;
-
+    cout<<"The value at address b is "<<*&a<<" ."<<endl;
     cout<<"The value at address b is "<<*b<<" ."<<endl;
 
     // Pointer to pointer
