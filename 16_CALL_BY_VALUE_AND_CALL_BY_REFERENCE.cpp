@@ -18,14 +18,14 @@ void swap(int a, int b){
 // the swapping shown in 12th line will work, if it is just in a normal way not in function form
 
 */
-//  CALL BY VALUE USING POINTERS
+//  CALL BY REFERENCE USING POINTERS
 void swap(int* a,int* b){   // here, pointers of swap function got the address of x and y
     int temp = *a;          // now, the value of a is stored in temp 
     *a = *b;                // then, a got the value of b 
     *b = temp;              // and b got the value of temp
 }                           // FUNCTION SWAPPED THE VALUES SUCCESSFULLY
 
-//  CALL BY REFERENCE USING C++ REFERENCE VARIABLES
+//  CALL BY VALUE USING C++ REFERENCE VARIABLES
 void swapRefVar(int &a, int &b){    //  in pointer reference, we extracted address of actual argument and store it in pointer
     int temp = a;                   // but here, we declare x as a and y as b using reference variable
     a = b;                          //  now changes made in a and b will be reflected directly to x and y
