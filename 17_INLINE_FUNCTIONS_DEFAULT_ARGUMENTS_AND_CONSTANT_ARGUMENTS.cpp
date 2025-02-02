@@ -13,9 +13,9 @@ using namespace std;
 //  DISADVANTAGE
 //  it calls function in cache memory and if huge program enters in cache, it will start occupying too much space resulting in space shortage
 
- inline int product(int a, int b){
-     return a*b;
- }
+//  inline int product(int a, int b){
+//      return a*b;
+//  }
  
  int product(int a, int b){
      static int c = 0;
@@ -23,8 +23,8 @@ using namespace std;
     // static int = 0 will execute only once and as program goes to second line
     // it returns value according to given stucture and add it in next line(return) 
     // then when product function is again called in 2nd line it will go to product function created above main
-    // and here it will found that value of c is retained as executed in structure line during execution of 
-    //1st line of main function and proceeds further, here, static int = 0 won't run in 2nd wave of coding  
+    // and here it will found that value of c is retained as executed in structure line, during execution of 
+    // 1st line of main function and proceeds further, here, static int = 0 won't run in 2nd wave of coding  
     // with its current value
 
     // it's not a good practice to use inline function with static , loop statement , switch statement etc. as it'll be confusing
@@ -45,7 +45,7 @@ using namespace std;
     //  int strlen(const int,int a ){
     //    return  int+int a;
     //  }
-int main(){
+int main(){ 
     int a,b,c;
      cout<<"Enter the value of a and b :";
      cin>>a>>b;
