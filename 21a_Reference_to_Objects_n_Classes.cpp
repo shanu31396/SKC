@@ -2,7 +2,7 @@
 #include <iostream>
 //#include <bits/stdc++.h> //Ultimate header file
 
-using namespace std; // Namespace to avoid name conflicts
+using namespace std; // Namespace to avoid naming conflicts
 
 // Class is created b/f main() function
 class Train{ 
