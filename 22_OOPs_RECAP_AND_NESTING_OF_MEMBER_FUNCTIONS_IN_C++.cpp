@@ -49,7 +49,7 @@ class binary
 
 
 int main()
-{
+    {
 
     return 0;
-}
+    }
