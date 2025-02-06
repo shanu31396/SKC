@@ -22,15 +22,15 @@
  harry.salary = 9 makes no sense if salary is private
  i.e. overwriting of private variables is not possible
 
- now coming to the topic which is   
+ now coming to the topic which is
 
  NESTING OF MEMBER FUNCTIONS
 
     if you have a function that you created earlier and it uses your private variable or any kind of function it is,
     you can call another function from that function without using dot
-    
+
  */
- 
+
 #include <iostream>
 #include <string>
 
@@ -38,18 +38,39 @@ using namespace std;
 
 class binary
 {
-    private:
-            void chk_bin();
-    public:
-            void read(void);
-            void ones_complement(void);
-            void display(void);
+private:
+    string s;
+    
+
+public:
+    void read(void);
+    void ones_complement(void);
+    void chk_bin();
+    void display(void);
 };
 
+void binary :: read(void)
+{
+    cout << "Enter a binary number :" << endl;
+    cin >> s;
+}
 
+void binary :: chk_bin(void)
+{
+    for (int i = 0; i < s.length(); i++)
+    {
+        if (s.at(i) != '0' && s.at(i) != '1')
+            cout << "Incorrect binary format" << endl;
+        exit(0);
+    }
+}
 
 int main()
-    {
+{
+
+    binary b;
+    b.read();
+    b.chk_bin();
 
     return 0;
-    }
+}
