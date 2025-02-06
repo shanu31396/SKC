@@ -32,7 +32,7 @@ class tut21
     //         a=a1;
     //         b=b1;
     //         c=c1;
-    //     }
+    //     }    there is no need of semicolon here 
 int main(){
 
     int a,b,c;
